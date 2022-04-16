@@ -12,8 +12,25 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
 }
+
+h1, h2, h3, p, ul {
+  padding: 0;
+  margin: 0;
+}
+
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 
 /* Header */
@@ -57,6 +74,7 @@ body {
 
 .hero {
   background-color: var(--background-color);
+  text-align: center;
 }
 .hero-title {
   font-style: normal;
@@ -67,6 +85,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-bottom: 30px;
 }
 .btn {
   background-color: var(--action-color);
@@ -79,6 +99,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  min-width: 200px;
+  min-height: 50px;
+
+  padding:  10px 32px;
+  border-radius: 4px;
 }
 .btn:focus {
 
@@ -94,6 +120,17 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+
+  margin-bottom: 10px;
+}
+.peculiarities-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 94px;
 }
 
 /* Our Work */
@@ -105,13 +142,9 @@ body {
   line-height: 1.17;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
-}
-.peculiarities-text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  text-align: center;
+
+  margin-bottom: 50px;
 }
 
 /* Our Team */
@@ -125,6 +158,7 @@ body {
   line-height: 1.17;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .our-team-name {
   font-style: normal;
@@ -192,6 +226,10 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
   color: var(--secondary-text-color);
+  border-color: transparent;
+  border-radius: 4px;
+
+  padding: 6px 22px 6px 22px;
 }
 .portfolio-btn:hover {
   background-color: var(--action-color);
