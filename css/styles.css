@@ -13,7 +13,11 @@ body {
   color: var(--primary-text-color);
 }
 
-h1, h2, h3, p, ul {
+h1, 
+h2, 
+h3, 
+p, 
+ul {
   padding: 0;
   margin: 0;
 }
@@ -111,6 +115,10 @@ h1, h2, h3, p, ul {
 }
 
 /* Main */
+.peculiarities {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .peculiarities.title {
   font-style: normal;
@@ -120,6 +128,7 @@ h1, h2, h3, p, ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  padding: 0;
 
   margin-bottom: 10px;
 }
@@ -129,8 +138,6 @@ h1, h2, h3, p, ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-
-  margin-bottom: 94px;
 }
 
 /* Our Work */
@@ -150,6 +157,12 @@ h1, h2, h3, p, ul {
 /* Our Team */
 .our-team {
   background-color: var(--background-our-team-section);
+
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.photo {
+  margin-bottom: 30px;
 }
 .our-team-title {
   font-style: normal;
@@ -167,6 +180,8 @@ h1, h2, h3, p, ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+
+  margin-bottom: 10px;
 }
 .our-team-position {
   font-style: normal;
@@ -175,10 +190,16 @@ h1, h2, h3, p, ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.our-team-list-item {
+  padding-bottom: 30px;
+}
 
 /* Footer */
 .footer {
   background-color: var(--background-color);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -189,6 +210,11 @@ h1, h2, h3, p, ul {
   color: var(--background-white);
   text-decoration: none;
   letter-spacing: 0.03em;
+
+  padding: 0;
+}
+.footer-address {
+  margin-top: 20px;
 }
 .address-text {
   color: var(--background-white);
@@ -197,6 +223,9 @@ h1, h2, h3, p, ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  padding: 0;
+  margin-bottom: 9px;
 }
 .link.footer {
   font-style: normal;
@@ -205,6 +234,9 @@ h1, h2, h3, p, ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-links);
+
+  padding: 0;
+  margin-bottom: 9px;
 }
 
 /* Portfolio page */
