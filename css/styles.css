@@ -262,7 +262,6 @@ img {
 .our-team-list .item + .item {
   margin-left: 30px;
 }
-
 .our-team-card-content {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -287,7 +286,6 @@ img {
   color: var(--background-white);
   text-decoration: none;
   letter-spacing: 0.03em;
-
   padding: 0;
 }
 .footer-address {
@@ -300,7 +298,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   padding: 0;
   margin-bottom: 9px;
 }
@@ -311,7 +308,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-links);
-
   padding: 0;
 }
 .list-footer {
