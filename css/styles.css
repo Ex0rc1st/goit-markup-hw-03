@@ -163,7 +163,7 @@ img {
 }
 
 /* Main */
-.peculiarities .container {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -199,7 +199,7 @@ img {
 }
 /* Our Work */
 .our-work {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 .our-work-title {
   font-style: normal;
@@ -377,10 +377,8 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-.content .container{
-  padding-bottom: 94px;
-}
 .filter-list {
+  margin-bottom: 50px;
   justify-content: center;
 }
 .content-list {
@@ -395,7 +393,6 @@ img {
   margin-left: var(--content-box-margin);
   background: var(--background-white);
 }
-
 .content-text {
   border: 1px solid var(--portfolio-items-border-color);
   box-sizing: border-box;
